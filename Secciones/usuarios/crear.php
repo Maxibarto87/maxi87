@@ -1,4 +1,5 @@
-?php
+<?php 
+
 if ($_POST) {
     print_r($_POST);
     require_once("../../bd.php");
@@ -16,6 +17,8 @@ if ($_POST) {
     $sentencia->execute();
     header("Location:index.php");
 }
+
+?>
 require_once("../../templates/header.php") ?>
 <div class="card">
     <div class="card-header">
@@ -42,4 +45,6 @@ require_once("../../templates/header.php") ?>
         </form>
     </div>
 </div>
-<?php require_once("../../templates/footer.php") ?>
+<?php require_once("../../templates/footer.php") 
+
+?>
