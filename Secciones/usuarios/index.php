@@ -1,4 +1,5 @@
-?php
+<?php
+
 require_once("../../bd.php");
 if (isset($_GET["txtID"])) { // lógica para eliminar un usuario
     // Recolectar los datos del metodo GET
