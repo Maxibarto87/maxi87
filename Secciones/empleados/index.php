@@ -8,7 +8,9 @@ $ sentencia = $ conexion -> preparar (" SELECT *,
 DESDE `tbl_empleados` ");
 $ sentencia -> ejecutar ();
 $ lista_tbl_empleados = $ sentencia -> fetchAll ( PDO :: FETCH_ASSOC );
-require_once (" ../../templates/header.php ") ?>
+
+<?php require_once (" ../../templates/header.php ") ?>
+
 < h1 > Empleados </ h1 >
 < div  clase =" tarjeta " >
     < div  clase =" encabezado de tarjeta " >
